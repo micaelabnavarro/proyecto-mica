@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+/* barra navegacion */
+
+
+.inicio {
+    background-image: linear-gradient(rgb(8, 24, 29), rgb(248, 100, 169));
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+
+
+.inicio .contenido header {
+    background-color: #000000;
+    position: absolute;
+    width: 100%;
+    z-index: 50;
+    top: 0;
+    
+}
+
+a .magic {
+    width: 65px;
+   
+
+
+}
+
+.inicio .contenido header .contenido-header {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+
+.inicio .contenido header .contenido-header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.inicio .contenido header .contenido-header nav ul li a {
+    text-decoration: none;
+    color: rgb(209, 39, 152);
+    margin: 0 12px;
+    font-weight: 400;
+    transition: .9s;
+    
+}
+
+.inicio .contenido header .contenido-header nav ul li a:hover {
+    color: #d9ff02;
+    font-size: large;
+}
+
+.inicio .contenido header .contenido-header .seleccionado {
+    color: #ffffff;
+}
+
+/* index */
+
+.inicio .contenido .presentacion {
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inicio .contenido .presentacion .bienvenida {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 2px rgb(212, 10, 94);
+            
+}
+
+.inicio .contenido .presentacion h2 {
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.inicio .contenido .presentacion h2 span {
+    font-size: 20px;
+    color: #e0236b;
+}
+
+.inicio .contenido .presentacion .descripcion {
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Empresa */
+
+.nosotros h2 {
+    max-width: 1100px;
+    height: 50vh;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgb(212, 10, 94);
+}
+
+.nosotros p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.nosotros {
+    font-size: 40px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.nosotros {
+    font-size: 45px;
+    color: #000000;
+}
+
+.nosotros {
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer web {
+    color: #fff;
+    text-align: center;
+    background-color: rgb(15, 148, 189);
+}
+
+/*PRODUCTOS*/
+.productosbody {
+    background-image: linear-gradient(rgb(8, 24, 29), rgb(248, 100, 169));
+}
+
+.nespecialidad {
+    max-width: 1100px;
+    height: 50vh;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgb(212, 10, 94);
+    
+}
+
+.ulne {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    list-style-type: none;
+
+}
+
+.clasicos {
+    max-width: 1100px;
+    height: 50vh;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgb(212, 10, 94);
+    list-style-type: none;
+}
+
+.ulc {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    list-style-type: none;
+}
+
+.potes {
+    max-width: 1100px;
+    height: 50vh;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgb(212, 10, 94);
+    list-style-type: none;
+}
+
+.ulp {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    list-style-type: none;
+}
+
+.especial {
+    max-width: 1100px;
+    height: 50vh;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgb(26, 163, 197);
+    list-style-type: none;
+}
+
+.ule {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    list-style-type: none;
+}
+
+/*SABORES*/
+
