@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
 
 * {
     margin: 0;
@@ -11,7 +12,6 @@
 
 
 .inicio {
-    background-image: linear-gradient(rgb(8, 24, 29), rgb(248, 100, 169));
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -70,7 +70,9 @@ a .magic {
 }
 
 /* index */
-
+.binicio {
+    background-image: linear-gradient(rgb(8, 24, 29), rgb(248, 100, 169));
+}
 .inicio .contenido .presentacion {
     max-width: 1100px;
     height: 100vh;
@@ -88,8 +90,94 @@ a .magic {
     text-transform: uppercase;
     letter-spacing: 5px;
     text-shadow: 2px 2px 2px rgb(212, 10, 94);
+    
             
+
 }
+
+
+    
+
+
+    
+    .inicio .contenido .presentacion .bienvenida {
+      color: hsla(0, 0%, 0%, .9);
+      font: normal 50px Varela Round, sans-serif;
+      height: 140px;
+      left: 0;
+      letter-spacing: 5px;
+      margin: -200px 0 0;
+      position: absolute;
+      text-align: center;
+      text-transform: uppercase;
+      top: 50%;
+      width: 100%;
+      animation: move linear 2000ms infinite;  
+    }
+    
+    @keyframes move {
+      0% {
+        text-shadow:
+          4px -4px 0 hsla(0, 100%, 50%, 1), 
+          3px -3px 0 hsla(0, 100%, 50%, 1), 
+          2px -2px 0 hsla(0, 100%, 50%, 1), 
+          1px -1px 0 hsla(0, 100%, 50%, 1),
+          -4px 4px 0 hsla(180, 100%, 50%, 1), 
+          -3px 3px 0 hsla(180, 100%, 50%, 1), 
+          -2px 2px 0 hsla(180, 100%, 50%, 1), 
+          -1px 1px 0 hsla(180, 100%, 50%, 1)
+        ;
+      }
+      25% {    
+        text-shadow:      
+          -4px -4px 0 hsla(180, 100%, 50%, 1), 
+          -3px -3px 0 hsla(180, 100%, 50%, 1), 
+          -2px -2px 0 hsla(180, 100%, 50%, 1), 
+          -1px -1px 0 hsla(180, 100%, 50%, 1),
+          4px 4px 0 hsla(0, 100%, 50%, 1), 
+          3px 3px 0 hsla(0, 100%, 50%, 1), 
+          2px 2px 0 hsla(0, 100%, 50%, 1), 
+          1px 1px 0 hsla(0, 100%, 50%, 1)      
+        ;
+      }
+      50% {
+        text-shadow:
+          -4px 4px 0 hsla(0, 100%, 50%, 1), 
+          -3px 3px 0 hsla(0, 100%, 50%, 1), 
+          -2px 2px 0 hsla(0, 100%, 50%, 1), 
+          -1px 1px 0 hsla(0, 100%, 50%, 1),
+          4px -4px 0 hsla(180, 100%, 50%, 1), 
+          3px -3px 0 hsla(180, 100%, 50%, 1), 
+          2px -2px 0 hsla(180, 100%, 50%, 1), 
+          1px -1px 0 hsla(180, 100%, 50%, 1)
+        ;
+      }
+      75% {
+        text-shadow:
+          4px 4px 0 hsla(180, 100%, 50%, 1), 
+          3px 3px 0 hsla(180, 100%, 50%, 1), 
+          2px 2px 0 hsla(180, 100%, 50%, 1), 
+          1px 1px 0 hsla(180, 100%, 50%, 1),
+          -4px -4px 0 hsla(0, 100%, 50%, 1), 
+          -3px -3px 0 hsla(0, 100%, 50%, 1), 
+          -2px -2px 0 hsla(0, 100%, 50%, 1), 
+          -1px -1px 0 hsla(0, 100%, 50%, 1)      
+        ;
+      }
+      100% {
+        text-shadow:
+          4px -4px 0 hsla(0, 100%, 50%, 1), 
+          3px -3px 0 hsla(0, 100%, 50%, 1), 
+          2px -2px 0 hsla(0, 100%, 50%, 1), 
+          1px -1px 0 hsla(0, 100%, 50%, 1),
+          -4px 4px 0 hsla(180, 100%, 50%, 1), 
+          -3px 3px 0 hsla(180, 100%, 50%, 1), 
+          -2px 2px 0 hsla(180, 100%, 50%, 1), 
+          -1px 1px 0 hsla(180, 100%, 50%, 1)
+        ;
+      }  
+    }
+ 
 
 .inicio .contenido .presentacion h2 {
     font-size: 20px;
@@ -109,7 +197,22 @@ a .magic {
     text-align: center;
 }
 
+.indxfooter {
+    
+    color: rgb(14, 3, 3);
+    text-align: center;
+    background-image: linear-gradient(to top, rgba(206, 55, 156, 0.945) , rgb(141, 9, 82))
+    
+} 
+
+
+
 /* Empresa */
+
+
+.bempresa {
+    background-image: linear-gradient(rgb(8, 24, 29), rgb(248, 100, 169));
+}
 
 .nosotros h2 {
     max-width: 1100px;
@@ -148,14 +251,15 @@ a .magic {
     text-align: center;
 }
 
-.footer web {
-    color: #fff;
+.efooter {
+    color: rgb(14, 3, 3);
     text-align: center;
-    background-color: rgb(15, 148, 189);
+    background-image: linear-gradient(to top, rgba(206, 55, 156, 0.945) , rgb(141, 9, 82))
 }
 
 /*PRODUCTOS*/
-.productosbody {
+
+.bproductos {
     background-image: linear-gradient(rgb(8, 24, 29), rgb(248, 100, 169));
 }
 
@@ -247,5 +351,34 @@ a .magic {
     list-style-type: none;
 }
 
+.pfooter {
+    color: rgb(14, 3, 3);
+    text-align: center;
+    background-image: linear-gradient(to top, rgba(206, 55, 156, 0.945) , rgb(141, 9, 82))
+}
+
 /*SABORES*/
 
+.bsabores .inicio .sabores {
+    background-image: linear-gradient(rgb(8, 24, 29), rgb(248, 100, 169));
+}
+
+.sfooter {
+    color: rgb(14, 3, 3);
+    text-align: center;
+    background-image: linear-gradient(to top, rgba(206, 55, 156, 0.945) , rgb(141, 9, 82))
+} 
+
+
+
+/*CONTACTO*/
+
+.bcontacto {
+    background-image: linear-gradient(rgb(8, 24, 29), rgb(248, 100, 169));
+}
+
+.cfooter {
+    color: rgb(14, 3, 3);
+    text-align: center;
+    background-image: linear-gradient(to top, rgba(206, 55, 156, 0.945) , rgb(141, 9, 82))
+}
