@@ -11,15 +11,15 @@
 /* barra navegacion */
 
 
-.inicio {
+.contenido {
     background-size: cover;
     background-position: center center;
-    height: 100vh;
+    
 }
 
 
 
-.inicio .contenido header {
+.contenido header {
     background-color: #000000;
     position: absolute;
     width: 100%;
@@ -35,7 +35,7 @@ a .magic {
 
 }
 
-.inicio .contenido header .contenido-header {
+.contenido header .contenido-header {
     max-width: 1200px;
     margin: auto;
     display: flex;
@@ -45,13 +45,13 @@ a .magic {
     
 }
 
-.inicio .contenido header .contenido-header nav ul {
+.contenido header .contenido-header nav ul {
     list-style: none;
     display: flex;
     align-items: center;
 }
 
-.inicio .contenido header .contenido-header nav ul li a {
+.contenido header .contenido-header nav ul li a {
     text-decoration: none;
     color: rgb(209, 39, 152);
     margin: 0 12px;
@@ -60,20 +60,20 @@ a .magic {
     
 }
 
-.inicio .contenido header .contenido-header nav ul li a:hover {
+.contenido header .contenido-header nav ul li a:hover {
     color: #d9ff02;
     font-size: large;
 }
 
-.inicio .contenido header .contenido-header .seleccionado {
+.contenido header .contenido-header .seleccionado {
     color: #ffffff;
 }
 
 /* index */
 .binicio {
-    background-image: linear-gradient(rgb(8, 24, 29), rgb(248, 100, 169));
+    background-image: linear-gradient(to top, rgba(206, 55, 156, 0.945) , rgb(141, 9, 82))
 }
-.inicio .contenido .presentacion {
+.contenido .presentacion {
     max-width: 1100px;
     height: 100vh;
     margin: auto;
@@ -84,7 +84,7 @@ a .magic {
     justify-content: center;
 }
 
-.inicio .contenido .presentacion .bienvenida {
+.contenido .presentacion .bienvenida {
     font-size: 40px;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -100,7 +100,7 @@ a .magic {
 
 
     
-    .inicio .contenido .presentacion .bienvenida {
+    .contenido .presentacion .bienvenida {
       color: hsla(0, 0%, 0%, .9);
       font: normal 50px Varela Round, sans-serif;
       height: 140px;
@@ -179,18 +179,18 @@ a .magic {
     }
  
 
-.inicio .contenido .presentacion h2 {
+.contenido .presentacion h2 {
     font-size: 20px;
     margin-bottom: 25px;
     text-align: center;
 }
 
-.inicio .contenido .presentacion h2 span {
+.contenido .presentacion h2 span {
     font-size: 20px;
     color: #e0236b;
 }
 
-.inicio .contenido .presentacion .descripcion {
+.contenido .presentacion .descripcion {
     max-width: 700px;
     margin: 25px auto;
     font-size: 18px;
@@ -208,10 +208,8 @@ a .magic {
 
 
 /* Empresa */
-
-
 .bempresa {
-    background-image: linear-gradient(rgb(8, 24, 29), rgb(248, 100, 169));
+    background-image: linear-gradient(to top, rgba(206, 55, 156, 0.945) , rgb(141, 9, 82))
 }
 
 .nosotros h2 {
@@ -231,6 +229,7 @@ a .magic {
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 5px;
+    
 }
 
 .nosotros {
@@ -251,20 +250,25 @@ a .magic {
     text-align: center;
 }
 
+
+    
+
 .efooter {
-    color: rgb(14, 3, 3);
+    color: black;
+    
     text-align: center;
     background-image: linear-gradient(to top, rgba(206, 55, 156, 0.945) , rgb(141, 9, 82))
 }
 
-/*PRODUCTOS*/
 
+/*PRODUCTOS*/
 .bproductos {
-    background-image: linear-gradient(rgb(8, 24, 29), rgb(248, 100, 169));
+    background-image: linear-gradient(to top, rgba(206, 55, 156, 0.945) , rgb(141, 9, 82))
+
 }
 
-.nespecialidad {
-    max-width: 1100px;
+.especialidad .nespecialidad {
+    max-width: 1100;
     height: 50vh;
     color: rgb(0, 0, 0);
     display: flex;
@@ -276,109 +280,51 @@ a .magic {
     
 }
 
-.ulne {
+
+.especialidad .clasicos .ulc .li {
     font-size: 16px;
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 5px;
-    list-style-type: none;
 
 }
 
-.clasicos {
-    max-width: 1100px;
-    height: 50vh;
-    color: rgb(0, 0, 0);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 2px rgb(212, 10, 94);
+.ulne {
     list-style-type: none;
 }
 
 .ulc {
-    font-size: 16px;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    list-style-type: none;
-}
-
-.potes {
-    max-width: 1100px;
-    height: 50vh;
-    color: rgb(0, 0, 0);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 2px rgb(212, 10, 94);
+   
     list-style-type: none;
 }
 
 .ulp {
-    font-size: 16px;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    list-style-type: none;
-}
-
-.especial {
-    max-width: 1100px;
-    height: 50vh;
-    color: rgb(0, 0, 0);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 2px rgb(26, 163, 197);
     list-style-type: none;
 }
 
 .ule {
-    font-size: 16px;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
     list-style-type: none;
-}
-
-.pfooter {
-    color: rgb(14, 3, 3);
-    text-align: center;
-    background-image: linear-gradient(to top, rgba(206, 55, 156, 0.945) , rgb(141, 9, 82))
 }
 
 /*SABORES*/
 
-.bsabores .inicio .sabores {
-    background-image: linear-gradient(rgb(8, 24, 29), rgb(248, 100, 169));
+.sabores {
+    list-style-type: none;
 }
 
-.sfooter {
-    color: rgb(14, 3, 3);
-    text-align: center;
+.bsabores {
     background-image: linear-gradient(to top, rgba(206, 55, 156, 0.945) , rgb(141, 9, 82))
-} 
+}
+
+
+
+
 
 
 
 /*CONTACTO*/
 
 .bcontacto {
-    background-image: linear-gradient(rgb(8, 24, 29), rgb(248, 100, 169));
-}
-
-.cfooter {
-    color: rgb(14, 3, 3);
-    text-align: center;
     background-image: linear-gradient(to top, rgba(206, 55, 156, 0.945) , rgb(141, 9, 82))
 }
+
