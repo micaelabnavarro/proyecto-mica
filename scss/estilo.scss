@@ -1,0 +1,20 @@
+$color-footer: rgb(241, 13, 13);
+$color-inicio: rgb(247, 19, 190);
+$color-general: 2px 2px 2px rgb(212, 10, 94);
+
+.footer {
+
+    
+    color: $color-footer;
+    text-align: center;
+    
+}
+
+
+.body {
+    color: $color-inicio;
+}
+
+.h2 {
+    text-shadow: $color-general;
+}

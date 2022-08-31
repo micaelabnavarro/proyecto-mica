@@ -67,7 +67,7 @@ a .magic {
 
 .contenido header .contenido-header .seleccionado {
     color: #ffffff;
-}
+} 
 
 /* index */
 .binicio {
@@ -90,16 +90,7 @@ a .magic {
     text-transform: uppercase;
     letter-spacing: 5px;
     text-shadow: 2px 2px 2px rgb(212, 10, 94);
-    
-            
-
 }
-
-
-    
-
-
-    
     .contenido .presentacion .bienvenida {
       color: hsla(0, 0%, 0%, .9);
       font: normal 50px Varela Round, sans-serif;
@@ -263,6 +254,7 @@ a .magic {
 
 }
 
+
 .especialidad .nespecialidad {
     max-width: 1100;
     height: 30vh;
@@ -276,31 +268,11 @@ a .magic {
     
 }
 
-
-.especialidad .clasicos .ulc .li {
-    font-size: 16px;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-
+.clasicos .container .row {
+    border-radius: 5px;
+    border-color: #000000;
 }
 
-.ulne {
-    list-style-type: none;
-}
-
-.ulc {
-   
-    list-style-type: none;
-}
-
-.ulp {
-    list-style-type: none;
-}
-
-.ule {
-    list-style-type: none;
-}
 
 /*SABORES*/
 
@@ -404,8 +376,51 @@ text-shadow: 2px 2px 2px rgb(223, 81, 187);
 /*CONTACTO*/
 
 .bcontacto {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(206, 55, 156, 0.945);
+   
     
-        background-image: linear-gradient(to top, rgba(206, 55, 156, 0.945) , rgb(141, 9, 82))
+        
+}
+
+.formcontact {
+    background-color: rgb(9, 11, 12);
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 7px 13px 37px rgba(0, 0, 0, 8);
+    border-radius: 5px;
     
 }
+
+
+.contact {
+    padding: .8rem;
+    overflow:hidden;
+    color: rgb(241, 16, 193);
+}
+
+.contact label, .contac input, .contact textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+
+}
+
+.contact label {
+    font-weight: 700;
+}
+
+.contact input, .contact textarea {
+    border: none;
+    border-bottom: 2px solid #ff165d;
+    margin-bottom: 10px;
+    font-size: 20px;
+    outline: none;
+    color: gray;
+}
+
+
 
